@@ -56,14 +56,16 @@ quantity – Proxy for demand / units sold (INT)
 
 Initial data checks were conducted to validate data consistency, identify null values, and ensure correct data types before performing analysis.
 
+## Useful Links
+
+The SQL queries used to inspect and clean the data for this analysis can be found here
+
+Targeted SQL queries addressing specific business questions can be found here: [link to analysis SQL file]
 
 
 ## Executive Summary
 
-The analysis reveals that Zepto’s revenue is primarily driven by high-frequency purchase categories such as cooking essentials and munchies, while premium products demonstrate strong demand even without discounting. Conversely, fruits and vegetables contribute the least to revenue despite having the highest average discount levels, indicating margin erosion driven by perishability rather than demand stimulation.
-
-These findings highlight opportunities for margin optimization, improved inventory planning, and more targeted discount strategies across categories.
-
+This project analyzes Zepto’s product-level data to evaluate category performance, pricing effectiveness, and inventory availability within a quick-commerce retail context. The analysis identifies cooking essentials and munchies as the primary revenue-driving categories due to consistent, high-frequency demand, while premium high-MRP products demonstrate strong price-inelastic demand even without discounting, highlighting clear margin optimization opportunities. In contrast, fruits and vegetables contribute the least to total revenue despite exhibiting the highest average discount levels, indicating margin erosion driven by perishability rather than demand stimulation. Additionally, recurring stockouts in high-value products reveal gaps in demand forecasting and replenishment prioritization, resulting in missed revenue potential. Overall, the findings support targeted pricing optimization, inventory prioritization for high-impact SKUs, and category-specific discount strategies to improve unit economics and profitability.
 
 ## Insights Deep Dive
 
