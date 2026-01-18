@@ -18,23 +18,23 @@ This project analyzes a structured product dataset to simulate real-world busine
 
 Insights and recommendations are provided across the following key areas:
 
-1 . Category Performance & Revenue Contribution
+- Category Performance & Revenue Contribution
 
-2 . Pricing & Discount Effectiveness
+- Pricing & Discount Effectiveness
 
-3 . Inventory Availability & Stockout Analysis
+- Inventory Availability & Stockout Analysis
 
-4 . Margin Optimization Opportunities
+- Margin Optimization Opportunities
 
 ## Useful Links
 
-1 ) The SQL queries used to inspect and clean the data for this analysis can be found [HERE.](DATACLEANING.ZEPTO.sql)
+- The SQL queries used to inspect and clean the data for this analysis can be found [HERE.](DATACLEANING.ZEPTO.sql)
 
-2 ) Targeted SQL queries addressing specific business questions can be found [HERE.](Dataanalysis.zepto.sql)
+- Targeted SQL queries addressing specific business questions can be found [HERE.](Dataanalysis.zepto.sql)
 
-3 ) The entire SQL file for the project can be found [HERE.](NEWPROJECT.ZEPTO.sql)
+- The entire SQL file for the project can be found [HERE.](NEWPROJECT.ZEPTO.sql)
 
-4 ) Dataset can be found [HERE](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv)
+- Dataset can be found [HERE](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv)
 
 ## Data Structure 
 
@@ -53,67 +53,67 @@ This project analyzes Zepto’s product-level data to evaluate category performa
 
 ### **_Category Performance & Revenue Contribution_**
 
-1 ) Cooking essentials and munchies collectively contribute the highest share of total estimated revenue, driven by high purchase frequency and consistent demand.
+- Cooking essentials and munchies collectively contribute the highest share of total estimated revenue, driven by high purchase frequency and consistent demand.
 
-2 ) These categories show lower revenue volatility, making them critical baseline revenue drivers for the platform.
+- These categories show lower revenue volatility, making them critical baseline revenue drivers for the platform.
 
-3 ) Fruits and vegetables contribute the lowest share of total estimated revenue, despite exhibiting the highest average discount percentage across all categories.
+- Fruits and vegetables contribute the lowest share of total estimated revenue, despite exhibiting the highest average discount percentage across all categories.
 
-4 ) The combination of high discounting and low revenue contribution indicates margin compression without proportional volume uplift.
+- The combination of high discounting and low revenue contribution indicates margin compression without proportional volume uplift.
 
 ### **_Pricing & Discount Strategy Analysis_**
 
-1 ) Multiple high-MRP SKUs (above category average MRP) were observed to be out of stock at 0% discount, signaling strong price inelastic demand.
+- Multiple high-MRP SKUs (above category average MRP) were observed to be out of stock at 0% discount, signaling strong price inelastic demand.
 
-2 ) Premium products demonstrate discount independence, suggesting discounting in these segments may unnecessarily erode gross margins.
+- Premium products demonstrate discount independence, suggesting discounting in these segments may unnecessarily erode gross margins.
 
-3 ) Categories with aggressive discounting do not consistently translate into higher revenue, highlighting diminishing marginal returns on discount spend.
+- Categories with aggressive discounting do not consistently translate into higher revenue, highlighting diminishing marginal returns on discount spend.
 
-4 ) Discount effectiveness varies significantly by category, reinforcing the need for category-level pricing strategies instead of uniform promotions.
+- Discount effectiveness varies significantly by category, reinforcing the need for category-level pricing strategies instead of uniform promotions.
 
 ### **_Inventory & Stock Availability Analysis_**
 
-1 ) A disproportionate number of stockouts occur in high-value SKUs, directly impacting potential revenue realization.
+- A disproportionate number of stockouts occur in high-value SKUs, directly impacting potential revenue realization.
 
-2 ) Stockouts in premium products indicate demand forecasting inaccuracies and suboptimal replenishment prioritization.
+- Stockouts in premium products indicate demand forecasting inaccuracies and suboptimal replenishment prioritization.
 
-3 ) Revenue-critical categories experience higher opportunity cost per stockout compared to low-MRP categories.
+- Revenue-critical categories experience higher opportunity cost per stockout compared to low-MRP categories.
 
-4 ) Improving fill rates for high-MRP, high-demand SKUs can yield immediate revenue and margin recovery.
+- Improving fill rates for high-MRP, high-demand SKUs can yield immediate revenue and margin recovery.
 
 ### **_Margin Optimization Opportunities_**
 
-1 ) Premium SKUs with stable demand and minimal reliance on discounts present clear gross margin expansion opportunities.
+- Premium SKUs with stable demand and minimal reliance on discounts present clear gross margin expansion opportunities.
 
-2 ) Reducing discount depth on price-inelastic products can increase contribution margin without impacting demand.
+- Reducing discount depth on price-inelastic products can increase contribution margin without impacting demand.
 
-3 ) High-discount, low-revenue categories (e.g., fruits and vegetables) require operational efficiency improvements rather than promotional intensity.
+- High-discount, low-revenue categories (e.g., fruits and vegetables) require operational efficiency improvements rather than promotional intensity.
 
-4 ) Strategic alignment of pricing, discounting, and inventory allocation can materially improve unit economics and overall profitability.
+- Strategic alignment of pricing, discounting, and inventory allocation can materially improve unit economics and overall profitability.
 
 
 ## Recommendations
 
 Based on the analysis, the following actions are recommended:
 
-1 ) Prioritize inventory replenishment for high-MRP, high-demand products to prevent revenue loss
+- Prioritize inventory replenishment for high-MRP, high-demand products to prevent revenue loss
 
-2 ) Reduce aggressive discounting in fruits and vegetables and focus on supply-chain efficiency
+- Reduce aggressive discounting in fruits and vegetables and focus on supply-chain efficiency
 
-3 ) Maintain strong stock availability in cooking essentials and munchies to protect core revenue
+- Maintain strong stock availability in cooking essentials and munchies to protect core revenue
 
-4 ) Use category-specific discount strategies instead of blanket promotions
+- Use category-specific discount strategies instead of blanket promotions
 
-5 ) Leverage premium SKUs for margin optimization rather than volume-based discounting
+- Leverage premium SKUs for margin optimization rather than volume-based discounting
 ## Assumptions & Caveats
 
-1 ) Revenue and demand are estimated using available pricing and quantity fields due to the absence of transaction-level sales data
+- Revenue and demand are estimated using available pricing and quantity fields due to the absence of transaction-level sales data
 
-2 ) Discount impact is analyzed descriptively and does not account for external demand drivers
+- Discount impact is analyzed descriptively and does not account for external demand drivers
 
-3 ) Stock availability is treated as a point-in-time snapshot rather than a time-series trend
+- Stock availability is treated as a point-in-time snapshot rather than a time-series trend
 
-4 ) Customer-level behavior is inferred using product-level proxies
+- Customer-level behavior is inferred using product-level proxies
 ## Conclusion
 
 The analysis uncovers clear differences in revenue contribution, pricing sensitivity, and inventory effectiveness across product categories within the quick-commerce platform. 
@@ -122,3 +122,4 @@ It identifies cooking essentials and munchies as the primary revenue drivers, wh
 
 It also highlights that aggressive discounting in fruits and vegetables leads to margin compression without proportional revenue uplift, indicating inefficient discount spend. Additionally, recurring stockouts in high-value SKUs expose demand forecasting and replenishment gaps that result in direct revenue loss. Collectively, these findings support targeted pricing optimization, inventory prioritization for high-impact SKUs, and category-specific discount strategies to improve overall unit economics and profitability.
 
+# Skills: SQL, MySQL, Business Intelligence, ETL
