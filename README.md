@@ -32,29 +32,14 @@ Insights and recommendations are provided across the following key areas:
 
 2 ) Targeted SQL queries addressing specific business questions can be found [HERE.](Dataanalysis.zepto.sql)
 
-3) The entire SQL file for the project can be found [HERE.](NEWPROJECT.ZEPTO.sql)
+3 ) The entire SQL file for the project can be found [HERE.](NEWPROJECT.ZEPTO.sql)
+
+4 ) Dataset can be found [HERE](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv)
 
 ## Data Structure 
 
-The primary dataset consists of a single product-level table containing pricing, discount, inventory, and category information, with a total row count representing Zepto’s active product catalog.
-
-Table Description: zepto
-
-category – Product category (String)
-
-name – Product name (String)
-
-MRP – Maximum Retail Price (INT)
-
-discountPercent – Discount applied on the product (INT)
-
-discountedSellingPrice – Final selling price after discount(INT)
-
-availableQuantity – Units available (INT)
-
-outOfStock – Stock availability flag (Boolean)
-
-quantity – Proxy for demand / units sold (INT)
+The primary dataset consists of a single product-level table containing pricing, discount, inventory, and category information, with a total row count of 3728 representing Zepto's active product catalog. 
+<img src="tablestruc.png" width="700">
 
 Initial data checks were conducted to validate data consistency, identify null values, and ensure correct data types before performing analysis.
 
