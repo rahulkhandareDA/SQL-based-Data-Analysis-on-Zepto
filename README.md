@@ -26,11 +26,13 @@ Insights and recommendations are provided across the following key areas:
 
 4 . Margin Optimization Opportunities
 
-The SQL queries used to inspect and clean the data for this analysis can be found here 
+## Useful Links
 
-Targeted SQL queries addressing specific business questions can be found here:
-[link to analysis SQL file]
+1 ) The SQL queries used to inspect and clean the data for this analysis can be found [HERE.](DATACLEANING.ZEPTO.sql)
 
+2 ) Targeted SQL queries addressing specific business questions can be found [HERE.](Dataanalysis.zepto.sql)
+
+3) The entire SQL file for the project can be found [HERE.](NEWPROJECT.ZEPTO.sql)
 
 ## Data Structure 
 
@@ -56,11 +58,6 @@ quantity – Proxy for demand / units sold (INT)
 
 Initial data checks were conducted to validate data consistency, identify null values, and ensure correct data types before performing analysis.
 
-## Useful Links
-
-The SQL queries used to inspect and clean the data for this analysis can be found here
-
-Targeted SQL queries addressing specific business questions can be found here: [link to analysis SQL file]
 
 
 ## Executive Summary
